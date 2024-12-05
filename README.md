@@ -1,8 +1,5 @@
 # **JUSTIN - Restaurant Queue Manager**
 
-![JUSTIN Logo](https://via.placeholder.com/600x200?text=JUSTIN+Logo)  
-*A seamless way to explore nearby restaurants and join waiting lists!*
-
 ---
 
 ## 📌 **Group Members**
@@ -38,8 +35,25 @@ This project builds upon our **Capstone Project: Queue Manager Application**, le
 ---
 
 ## 🛠️ **Setup Instructions**
-
+- 
 ### **1. Clone the Repository**
-```bash
-git clone <repository-url>
-cd JUSTIN
+### **2. Download The Expo on your smartphone(IOS|ANDROID**
+### **3. Ensure you have React Native properly configured in Visual Studio Code **
+### **4. run "npm install" to install all dependencies **
+### **5. launch app with "npm start" **
+
+
+---
+
+## 🖥️ ** Technologies Used **
+- Front-end - React Native, EXPO
+- Back-end  - Node.js, Express.js
+- API       - Google Maps API
+- Version Control - Git, Github
+
+
+## 📅 ** Project Progress **
+
+### ✅ Completed Tasks
+
+
