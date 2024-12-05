@@ -1,43 +1,79 @@
-import { View, Text } from 'react-native';
-import React from 'react';
+import { View, Text, Animated } from 'react-native';
+import React, { useState, useEffect } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../Screens/Home';
 import Reservation from '../Screens/Reservation';
 import Profile from '../Screens/Profile';
-// import icons from expo icons
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import HomeNavigation from './HomeNavigation';
+import ProfileStack from './ProfileNavigation';
+
+const Tab = createBottomTabNavigator();
 
 export default function TabNavigation() {
-  const Tab = createBottomTabNavigator();
+  // Función común para aplicar animaciones en los iconos
+  const getTabBarIcon = (name, color, focused) => {
+    const scale = focused ? new Animated.Value(1.2) : new Animated.Value(1);
+    const opacity = focused ? new Animated.Value(1) : new Animated.Value(0.8);
+
+    // Animación para hacer "titilar" el icono (cambio de opacidad)
+    useEffect(() => {
+      if (focused) {
+        const interval = setInterval(() => {
+          Animated.sequence([
+            Animated.timing(opacity, { toValue: 1, duration: 100, useNativeDriver: true }),
+            Animated.timing(opacity, { toValue: 0.8, duration: 100, useNativeDriver: true }),
+          ]).start();
+        }, 200);
+        return () => clearInterval(interval);
+      }
+    }, [focused]);
+
+    // Animación de escala
+    useEffect(() => {
+      Animated.spring(scale, {
+        toValue: focused ? 1.2 : 1,
+        friction: 3,
+        tension: 100,
+        useNativeDriver: true,
+      }).start();
+    }, [focused]);
+
+    return (
+      <Animated.View style={{ transform: [{ scale }], opacity }}>
+        <MaterialCommunityIcons name={name} size={24} color={focused ? '#FFB522' : color} />
+      </Animated.View>
+    );
+  };
+
   return (
-    <Tab.Navigator screenOptions={{  // hide the header
-      headerShown: false
-    }}>
-      {/* ICON change for tab navigatior */}
-      <Tab.Screen name="Home" component={HomeNavigation} 
+    <Tab.Navigator screenOptions={{ headerShown: false }}>
+      {/* ICON for Home */}
+      <Tab.Screen
+        name="Home"
+        component={HomeNavigation}
         options={{
-          tabBarLabel: "Home",
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" size={24} color="black" /> 
-          ),
+          tabBarLabel: 'Home',
+          tabBarIcon: ({ color, focused }) => getTabBarIcon('home', color, focused),
         }}
       />
-      <Tab.Screen name="Reservation" component={Reservation}
+      {/* ICON for Reservation */}
+      <Tab.Screen
+        name="Reservation"
+        component={Reservation}
         options={{
-          tabBarLabel: "Reservation",
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="calendar-check" size={24} color="black" /> 
-          ),
-        }} 
+          tabBarLabel: 'Reservation',
+          tabBarIcon: ({ color, focused }) => getTabBarIcon('calendar-check', color, focused),
+        }}
       />
-      <Tab.Screen name="Profile" component={Profile}
+      {/* ICON for Profile with "face-man-profile" */}
+      <Tab.Screen
+        name="Profile"
+        component={ProfileStack}
         options={{
-          tabBarLabel: "Profile",
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="face-man-profile" size={24} color="black" /> 
-          ),
-        }} 
+          tabBarLabel: 'Profile',
+          tabBarIcon: ({ color, focused }) => getTabBarIcon('face-man-profile', color, focused),
+        }}
       />
     </Tab.Navigator>
   );
