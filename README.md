@@ -7,7 +7,7 @@
 | **Name**                | **Student ID** | **Role**                          |
 |-------------------------|----------------|-----------------------------------|
 | **Daekyung Park**       | 101104521      | Team Leader / Full Stack / Design |
-| **Daekyung Park**       | 101104521      | Member                            |
+| **Liz Cruz Arbieto**    | 101470163      | Member                            |
 | **Yu Tanaka**           | 101427066      | Member                            |
 | **Chau Minh Truong**    | 101411424      | Front-End Developer / Designer    |
 
@@ -30,14 +30,13 @@ This project builds upon our **Capstone Project: Queue Manager Application**, le
 - **Detailed Restaurant Information**: Address, contact, wait times, and more.  
 - **Review System**: View and submit restaurant reviews.  
 
-> **Note:** While the initial design has evolved during development, we are continually improving the app to meet user needs.
 
 ---
 
 ## 🛠️ **Setup Instructions**
-- 
-### **1. Clone the Repository**
-### **2. Download The Expo on your smartphone(IOS|ANDROID**
+
+### **1. Clone the Repository **
+### **2. Download The Expo on your smartphone(IOS|ANDROID) **
 ### **3. Ensure you have React Native properly configured in Visual Studio Code **
 ### **4. run "npm install" to install all dependencies **
 ### **5. launch app with "npm start" **
@@ -55,5 +54,43 @@ This project builds upon our **Capstone Project: Queue Manager Application**, le
 ## 📅 ** Project Progress **
 
 ### ✅ Completed Tasks
+- ** Basic UI design with React Native
+- ** Map integration using Google Maps API
+- ** Backend setup for handling API requests
 
+### 🛠️ ** In Progrss **
+- ** Waiting Queue Features
+- ** More screens / Professional Design **
+- ** Registeration / Sign in
+- ** Bigger Map / Search Features
+- ** Estimate time to get the table
+- ** Showing real-time information
+- ** Connect to Reaspberry Pi to get real time update
+
+
+
+### 🎯 ** Future Goal ** 
+** User Authentication ** 
+- Implementing user registration and login for personalized experiences.
+** Real-Time Notifications **
+- Adding notifications to inform users about changes in waitlist status or table availability.
+Enhanced Review System:
+** Allowing users to leave reviews with star ratings and upload photos **
+- Displaying user reviews in a visually engaging format on the restaurant detail page.
+** Performance Optimization **
+- Improving the app's responsiveness and load times, especially for the map and search functionalities
+
+
+
+
+
+
+
+## 📬 ** Contact **  
+| **Name**                | **Student ID** | **Contact**                       |
+|-------------------------|----------------|-----------------------------------|
+| **Daekyung Park**       | 101104521      | daekyung.park@georgebrown.ca      |
+| **Liz Cruz Arbieto**    | 101470163      | Member                            |
+| **Yu Tanaka**           | 101427066      | yu.tanaka@georgebrown.ca          |
+| **Chau Minh Truong**    | 101411424      | chauminh.truong@georgebrown.ca    |
 
