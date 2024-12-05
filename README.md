@@ -4,12 +4,12 @@
 
 ## 📌 **Group Members**
 
-| **Name**                | **Student ID** | **Role**                          |
-|-------------------------|----------------|-----------------------------------|
-| **Daekyung Park**       | 101104521      | Team Leader / Full Stack / Design |
-| **Liz Cruz Arbieto**    | 101470163      | Member                            |
-| **Yu Tanaka**           | 101427066      | Member                            |
-| **Chau Minh Truong**    | 101411424      | Front-End Developer / Designer    |
+| **Name**                | **Student ID** | **Role**                              |
+|-------------------------|----------------|---------------------------------------|
+| **Daekyung Park**       | 101104521      | Team Leader / Full Stack / Design     |
+| **Liz Cruz Arbieto**    | 101470163      | Back-End Developer / Business Analyst |
+| **Yu Tanaka**           | 101427066      | Back-End Developer / API Hanlder      |
+| **Chau Minh Truong**    | 101411424      | Front-End Developer / Designer        |
 
 ---
 
