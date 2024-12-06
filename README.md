@@ -58,9 +58,10 @@ Acces this [link](https://www.figma.com/proto/U3XXowXQrGKvMgyowTULuz/JustIn?node
 ## 📅 ** Project Progress **
 
 ### ✅ Completed Tasks - During COMP3074 Group project
-- ** Basic UI design with React Native
-- ** Map integration using Google Maps API
-- ** Backend setup for handling API requests
+- ** Basic UI design with React Native by Daekyung Park, Chau Minh
+- ** Map integration using Google Maps API by Yu tanaka
+- ** Backend setup for handling API requests by Yu tanaka, Daekyung Park, Chau Minh
+- ** Basic placeholder for profile page by Liz
 
 ### 🛠️ ** In Progress **
 - ** Waiting Queue Features
