@@ -12,6 +12,7 @@
 | **Chau Minh Truong**    | 101411424      | Front-End Developer / Designer        |
 
 ---
+### Note : This is the general introduction for the Capstone Project which is a year project, During the COMP3074 project, we kindly built Fundamental Front-end and Back-end to handle the Google API and fetch the data from the API. 
 
 ## 🚀 **Project Overview**
 
