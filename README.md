@@ -31,6 +31,9 @@ This project builds upon our **Capstone Project: Queue Manager Application**, le
 - **Review System**: View and submit restaurant reviews.  
 
 
+### 🎨  **Figma Design**
+Acces this [link](https://www.figma.com/proto/U3XXowXQrGKvMgyowTULuz/JustIn?node-id=174-2447&node-type=canvas&t=dqj47qozwIuWd8yx-1&scaling=scale-down&content-scaling=fixed&page-id=53%3A800&starting-point-node-id=174%3A2447) to see our Prototype in Figma
+
 ---
 
 ## 🛠️ **Setup Instructions**
