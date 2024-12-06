@@ -56,12 +56,12 @@ Acces this [link](https://www.figma.com/proto/U3XXowXQrGKvMgyowTULuz/JustIn?node
 
 ## 📅 ** Project Progress **
 
-### ✅ Completed Tasks
+### ✅ Completed Tasks - During COMP3074 Group project
 - ** Basic UI design with React Native
 - ** Map integration using Google Maps API
 - ** Backend setup for handling API requests
 
-### 🛠️ ** In Progrss **
+### 🛠️ ** In Progress **
 - ** Waiting Queue Features
 - ** More screens / Professional Design **
 - ** Registeration / Sign in
