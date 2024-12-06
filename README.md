@@ -90,7 +90,7 @@ Enhanced Review System:
 | **Name**                | **Student ID** | **Contact**                       |
 |-------------------------|----------------|-----------------------------------|
 | **Daekyung Park**       | 101104521      | daekyung.park@georgebrown.ca      |
-| **Liz Cruz Arbieto**    | 101470163      | Member                            |
+| **Liz Cruz Arbieto**    | 101470163      | Liz.CruzArbieto@georgebrown.ca    |
 | **Yu Tanaka**           | 101427066      | yu.tanaka@georgebrown.ca          |
 | **Chau Minh Truong**    | 101411424      | chauminh.truong@georgebrown.ca    |
 
